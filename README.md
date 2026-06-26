@@ -2,6 +2,9 @@
 
 This repository contains the final GitHub-ready release of the CATHODE time-dependent toy study.
 
+It supports the paper "Time-dependent signals of new physics at the LHC":
+https://arxiv.org/abs/2605.11071
+
 The main entry point is:
 
 ```bash
