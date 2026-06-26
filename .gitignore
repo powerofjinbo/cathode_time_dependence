@@ -1,0 +1,32 @@
+.DS_Store
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+dark_energy_env/
+
+# Runtime outputs
+mc_scan_outputs*/
+promax_*/
+promax_v2_*/
+smoke_*/
+bench_*/
+conv_*/
+v2_probe_*/
+trained_*/
+trained_classifiers*/
+trained_flows*/
+*.log
+
+# Heavy/generated analysis artifacts kept out by default
+*.par
+*.npy
+*.npz
+*.root
+*.h5
+*.hdf5
+
+# Keep the curated reproducibility bundle under version control.
+!results/max_repro_bundle_20260307/**/*.csv
+!results/max_repro_bundle_20260307/**/*.pdf
+!results/max_repro_bundle_20260307/**/*.pkl
